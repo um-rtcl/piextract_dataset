@@ -1,9 +1,28 @@
 PI-Extract Dataset
 =================
 
+## Research Paper
 This repository contains the dataset and annotation guidelines of the following paper.
 
-> Duc Bui, Kang G. Shin, Jong-Min Choi, and Junbum Shin, "Automated Extraction and Presentation of Data Practices in Privacy Policies," Proceedings on Privacy Enhancing Technologies (PETS), 2021.
+**Automated Extraction and Presentation of Data Practices in Privacy Policies** [[pdf]](https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2021/pets21-duc.pdf)  
+Duc Bui, Kang G. Shin, Jong-Min Choi, and Junbum Shin  
+*Proceedings on Privacy Enhancing Technologies (PETS), 2021*
+
+**Bibtex** entry:
+
+```
+@article{piextract_pets21,
+  author = {Duc Bui and Kang G. Shin and Jong-Min Choi and Junbum Shin},
+  doi = {doi:10.2478/popets-2021-0019},
+  url = {https://doi.org/10.2478/popets-2021-0019},
+  title = {Automated Extraction and Presentation of Data Practices in Privacy Policies},
+  journal = {Proceedings on Privacy Enhancing Technologies},
+  number = {2},
+  volume = {2021},
+  year = {2021},
+  pages = {88--110}
+}
+```
 
 
 ## Dataset Description
@@ -20,7 +39,7 @@ There are four types of data actions:
 
 
 `dataset` directory contains 4 directories for the 4 data-practice labels.
-Each subdirectory contains 3 annotation files for `train`, `validation` and `test` splits.
+Each subdirectory contains 2 annotation files for the `train` and `validation` splits.
 
 The annotation files use the CoNLL-03 annotation format.
 Each line contains four space-separated fields: the word, its part-of-speech (PoS) tag, its chunk tag 
